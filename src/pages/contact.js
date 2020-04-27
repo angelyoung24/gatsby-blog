@@ -6,13 +6,15 @@ const Contact = () => {
   return (
     <div>
       <Layout>
+        <div className="content">
         <h1>Contact Me</h1>
         <p>
           Contact me on twitter{" "}
-          <a href="http://www.twitter.com/tornadosong" target="_blank">
+          <a href="http://www.twitter.com/tornadosong" target="_blank" rel="noopener noreferrer">
             @tornadosong
-          </a>{" "}
+          </a>
         </p>
+        </div>
       </Layout>
     </div>
   )

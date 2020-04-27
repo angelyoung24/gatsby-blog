@@ -6,8 +6,19 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Front-end Developer',
+    title: 'Angel Young',
     author: 'Angel Young'
   },
-  plugins: [`gatsby-plugin-sass`]
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+          name: 'src',
+          path: `${__dirname}/src/`
+      }
+
+    },
+    'gatsby-transformer-remark'
+  ]
 }

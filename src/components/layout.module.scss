@@ -13,3 +13,8 @@
 .content {
     flex-grow: 1;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

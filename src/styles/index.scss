@@ -617,6 +617,10 @@ html {
   pre tt:after {
     content: "";
   }
+  .content {
+    display: block;
+    margin-left: 30px;
+  }
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
